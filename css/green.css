@@ -1,0 +1,16 @@
+body{
+	background: url("../img/hojas.jpg");
+	background-attachment: fixed;
+}
+#logo{
+	background: #235E3D;
+}
+header .container nav li:hover
+{
+		padding: 10px;
+		background: #235E3d;
+}
+.button-more{
+	background: #235E3d;
+}
+

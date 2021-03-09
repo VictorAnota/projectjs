@@ -1,0 +1,16 @@
+body{
+	background: url("../img/rojo.jpg");
+	background-attachment: fixed;
+}
+#logo{
+	background: #ca3413;
+}
+header .container nav li:hover
+{
+		padding: 10px;
+		background: #ca3413;
+}
+.button-more{
+	background: #ca3413;
+}
+

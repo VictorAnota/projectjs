@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto js</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/bcd0145088.js" crossorigin="anonymous"></script>
+	<link id="theme" rel="stylesheet" href="css/green.css">
+
+	<!--*******************************************************************
+	*								SLIDER							  *
+	********************************************************************-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	 <!--*******************************************************************
+	 *								LIBRERIA MOMENT
+	 ********************************************************************-->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+
+	 <!--*******************************************************************
+	 *								javaScript
+	 ********************************************************************-->
+
+	 <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+	</div>
+	<section id="global">
+
+		<!--*******************************************************************
+									CABECERA							  
+		*******************************************************************-->
+		<header>
+			<div class="container .redes">
+				<h1>Proyecto</h1>
+				<nav>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contacto.php">Contacto</a></li>
+				</nav>
+				<a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+			</div>
+		</header>
+		<!--*******************************************************************
+										SLIDER							
+		*******************************************************************-->
+		<div id="slider">
+			<div class="bxslider">
+		  		<div><img src="img/hojas.jpg" title="Hojas"></div>
+		  		<div><img src="img/rojo.jpg" title="The long and winding road"></div>
+		  		<div><img src="img/cielo.jpg" title="Happy trees"></div>
+			</div>
+		</div>
+		<!--*******************************************************************
+		*								CONTENIDO
+		********************************************************************-->
+		<section id="content">
+			<div id="posts">
+				
+			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>¿Quien soy?</span></h4>
+					<img src="img/caracol.jpg" alt="">
+					<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit.</p>
+				</div>
+
+				<div id="login">
+					<h4><span>Identificate</span></h4>
+					<form action="">
+						<label for="name" id="">
+							Nombre:
+						</label>
+						<input type="text" name="name" id="form-name">
+						<label for="name">
+							Email:
+						</label>
+						<input type="email" name="email" id="form-email">
+						<label for="name">
+							Contraseña:
+						</label>
+						<input type="password" name="password" id="form-pass">
+
+						<input type="submit" value="Entrar">
+
+					</form>
+				</div>
+			</aside>
+			<div class="clearfix"></div>	
+		</section>
+	</section>
+	<!--*******************************************************************
+										FOOTER
+		*******************************************************************-->
+		<footer>
+			Victor Anota Barbosa &copy;
+			<a href="#" class="subir">Ir arriba</a>
+		</footer>
+		<script type="text/javascript" src="js/funciones.js"></script>
+</body>
+</html>
